@@ -1,8 +1,7 @@
 function firstWord(s) {
   // your code here
-	
-let firstWord = str.split(" ")[0];
-console.log(firstWord); // Output: "Apna"
+	  return s.trim().split(" ")[0];
+
 }
 
 // Do not change the code below
